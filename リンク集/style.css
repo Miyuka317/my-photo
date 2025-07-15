@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+  background-color: #ffc0cb;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  background-repeat: repeat;
+  background-size: auto;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(72, 60, 62);
+  margin: 0;
+  padding: 20px;
+
+  /* レスポンシブ縦中央揃え */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: 'Kaisei Decol', serif;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  padding: 6px 0;
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+}
+
+p, ul {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Kiwi Maru', serif;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 150px; /* お好みでサイズ調整 */
+}
+
+a {
+  background-color: floralwhite;
+  display: block;
+  padding: 20px 0;
+  border-radius: 12px;
+  color: rgb(94, 64, 69);
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: mistyrose;
+  transform: scale(1.03);
+}
+
+ul {
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Kaisei Decol', serif;
+  color: #555;
+  font-size: 14px;
+}
+
+.camera-info {
+  font-size: 0.85em;
+  color: rgba(72, 60, 62, 0.722); /* 少し淡くしてもOK */
+}
